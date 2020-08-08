@@ -63,9 +63,14 @@ paginate = 5 #frontpage pagination
   weight = 2
 
   [[menu.main]]
+  name = "Career"
+  url = "career/"
+  weight = 3
+
+  [[menu.main]]
   name = "Get in touch"
   url = "contact/"
-  weight = 3
+  weight = 4
 
 # this will also be in author bio if there is no writer.
   [params.social]

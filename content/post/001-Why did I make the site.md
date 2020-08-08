@@ -40,6 +40,6 @@ If you want a simple site like this so you can share some stuff or to use it ins
 
 I can help you to set it up if you want to, I got this set up in less than 8 hours over past week.
 
-Good day to you if you read this.
+**Good day to you if you read this**
 
-:D
+### **:D**

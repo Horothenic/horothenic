@@ -15,6 +15,10 @@ Now I can share all the things I want on my terms.
 
 This is me!, I do not taking photos very much, this one here and some with my girlfriend are all I have to show.
 
+The phrase that until this day is my **life motto**, the phrase the more I hear it the more I think is an excellent way to achieve happiness, the phrase I am most surprised I found in a zombie comedy movie.
+
+> *Enjoy the little things.*  ***- Columbus from Zombieland***
+
 ![This is me][1]
 
 ---------------

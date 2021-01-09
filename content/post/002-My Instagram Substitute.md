@@ -46,11 +46,11 @@ I bought one with my best friend and I have been taking pictures with it **EVERY
 
 Here is his substitute with mine one time I visited him after a long time.
 
-{{< instagram Bb5wnFSAOXV hidecaption >}}
+![Substitute](/img/posts/substitute-with-carlos.jpg "Substitute")
 
 and here is one from China trip.
 
-{{< instagram Bl0f74eFfgZ hidecaption >}}
+![Substitute](/img/posts/substitute-in-china.jpg "Substitute")
 
 I really **love** how stupid this is so I continue to share my life this way instead of me, and is so **funny** is an insentive to take more from time to time.
 

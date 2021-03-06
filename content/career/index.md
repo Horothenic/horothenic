@@ -1,17 +1,48 @@
 +++
 date = "2020-08-07 15:38:00"
-title = "My professional career"
+title = "My career"
 +++
 
 Right now I am aiming to one day join a **AAA studio** and learn from the best programmers around, become great and make games with the great.
 
 ---------------
 
-## **Education**
+## **Job history**
+
+![Create](/img/logos/amber-logo.png "Amber Studio")  
+**Amber Studio** (since Feb 2021)  
+**Mid-Senior Unity Developer**  
+Creating top tier games with top tier developers for amazing IPs.
+
+![Unity](/img/logos/unity-logo.png "Unity")  
+**Unity Techonologies** (May 2020 - Feb 2021)  
+**Subject Matter Expert**  
+I collaborated as an **SME** for the creation of the new **Associate** level certification.
+
+![Create](/img/logos/create-logo.png "Create")  
+**Create for Life** (Jan 2019 - Feb 2021)  
+**Lead Game Programmer**  
+I am developing games for education, efficiency and entertainment, with high tier developers and artists.
 
 ![UdeG](/img/logos/udeg-logo.png "UdeG")  
-**Bachelor on Computer Engineering** (2011-2015)  
-University of Guadalajara
+**UdeGames** (Mar 2018 - Dec 2018)  
+**Lead Game Developer**  
+Here I coded serious games and also collaborated with UdeG creating and keeping track of the Videogame Engineering career.
+
+![Clearview](/img/logos/clearview-logo.png "Clearview")  
+**Clearview** (Feb 2017 - Jul 2018)  
+**Coding Teacher**  
+I find teaching incredible, sharing knowledge and preparing the next generation filled my soul with joy.
+
+![Freelancer](/img/logos/freelancer-logo.png "Freelancer")  
+**Freelancer** (since Jul 2016)  
+**Game & App Developer**  
+I have worked on several some freelanced projects, including games, web apps, websites, AR, VR and mobile applications, advice and consultancy.
+
+![Arizaga](/img/logos/arizaga-logo.png "Arizaga")  
+**Arizaga** (Jul 2014 - Feb 2017)  
+**Game Developer**  
+Design, plan, creating layouts, programming and testing mobile games and applications was the everyday task, mainly related to Yepah! app.
 
 ---------------
 
@@ -29,41 +60,11 @@ Oracle
 
 ---------------
 
-## **Job history**
-
-![Arizaga](/img/logos/arizaga-logo.png "Arizaga")  
-**Arizaga** (Jul 2014 - Feb 2017)  
-**Game Developer**  
-Design, plan, creating layouts, programming and testing mobile games and applications was the everyday task, mainly related to Yepah! app.
-
-![Freelancer](/img/logos/freelancer-logo.png "Freelancer")  
-**Freelancer** (since Jul 2016)  
-**Game & App Developer**  
-I have worked on several some freelanced projects, including games, web apps, websites, AR, VR and mobile applications, advice and consultancy.
-
-![Clearview](/img/logos/clearview-logo.png "Clearview")  
-**Clearview** (Feb 2017 - Jul 2018)  
-**Coding Teacher**  
-I find teaching incredible, sharing knowledge and preparing the next generation filled my soul with joy.
+## **Education**
 
 ![UdeG](/img/logos/udeg-logo.png "UdeG")  
-**UdeGames** (Mar 2018 - Dec 2018)  
-**Lead Game Developer**  
-Here I coded serious games and also collaborated with UdeG creating and keeping track of the Videogame Engineering career.
-
-![Create](/img/logos/create-logo.png "Create")  
-**Create for Life** (since Jan 2019)  
-**Lead Game Programmer**  
-I am developing games for education, efficiency and entertainment, with high tier developers and artists.
-
----------------
-
-## **Professional achievements**
-
-![Unity](/img/logos/unity-logo.png "Unity")  
-**Unity Techonologies** (May 2020 - August 2020)  
-**Subject Matter Expert**  
-I collaborated as an **SME** for the creation of the new **Associate** level certification.
+**Bachelor on Computer Engineering** (2011-2015)  
+University of Guadalajara
 
 ---------------
 

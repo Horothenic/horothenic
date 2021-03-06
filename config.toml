@@ -31,9 +31,10 @@ paginate = 5 #frontpage pagination
     "Ivan Herrera is a game developer."
   ]
   copyright = [
-    "&copy; 2018 Göran Svensson",
+    # "&copy; 2018 Göran Svensson",
     "Nederburg Hugo Theme by [Appernetic](https://appernetic.io).",
-    "A port of Tracks by Compete Themes."
+    # "A port of Tracks by Compete Themes."
+    "Customized by Ivan Herrera"
   ]
 
 
@@ -68,8 +69,8 @@ paginate = 5 #frontpage pagination
   weight = 3
 
   [[menu.main]]
-  name = "Achievements"
-  url = "achievements/"
+  name = "Extra"
+  url = "extra/"
   weight = 4
 
   [[menu.main]]

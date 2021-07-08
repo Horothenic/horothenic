@@ -3,6 +3,11 @@ date = "2021-01-08 20:44:00"
 title = "Extra"
 +++
 
+### **ALGO EXPERT**  
+I finished **100** exercises in AlgoExpert, an amazing site to learn and practice algorithms.
+
+![AlgoExpert](/img/extra/algo-expert-certificate.jpg "AlgoExpert")
+
 ### **TSINGHUA UNIVERSITY**  
 I had the opportunity to participate in a contest sponsored by Santander on Beijing China to show my work done on the University of Guadalajara, achievemnt **Honorific Mention**.
 

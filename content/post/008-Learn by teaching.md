@@ -2,7 +2,7 @@
 draft = false
 image = "img/posts/amerike-colors.jpeg"
 showonlyimage = true
-date = "2022-03-29 14:00:00"
+date = "2022-03-29 15:00:00"
 title = "Learn by teaching"
 categories = [ "work", "personal"]
 writer = "Ivan Herrera"

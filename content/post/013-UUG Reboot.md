@@ -22,7 +22,7 @@ We stopped gathering on March 2020 because of **Covid**, I could not believe it 
 
 I really missed it, last month y friend Lune rebooted it since **Hacker Garage**, who closed because of Covid, was going to open doors again, with a talk from our Unity friend Arturo Nereu, you can find it on twitter as @arturonereu.
 
-{{< tweet user="arturonereu" id="1659213768201469952" >}}
+{{< tweet user="arturonereu" id=1659213768201469952 >}}
 
 His talk inspired me a lot, after the event I told Lune I wanted to do the next month talk, and then I started working on it.
 

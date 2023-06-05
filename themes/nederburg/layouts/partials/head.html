@@ -22,5 +22,6 @@
 <link href="{{ "css/custom.css" | absURL }}?v={{ now.Unix }}" rel="stylesheet" type='text/css' media='all'>
 <link rel="shortcut icon" href="{{ "img/favicon.ico" | absURL }}" type="image/x-icon">
 <link rel="icon" href="{{ "img/favicon.ico" | absURL }}" type="image/x-icon">
-{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}
+<!-- [IVAN] This like was causing to appear "/index.xml" on top left of the page, meaning that RSS is not well configured to the template -->
+<!--{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}-->
 {{ template "_internal/google_analytics_async.html" . }}

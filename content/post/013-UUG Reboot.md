@@ -20,9 +20,7 @@ Many years ago Unity sponsored these communities but now only few remain, and ac
 
 We stopped gathering on March 2020 because of **Covid**, I could not believe it was 3 years ago!!! I went to almost all of the reunions, it was a moment of peace around devs, I talked with my friends and we shared what we were doing, how we were improving and what we wanted for our professional career, I loved to do talks there and that even got me a job in the past!!!
 
-I really missed it, last month y friend Lune rebooted it since **Hacker Garage**, who closed because of Covid, was going to open doors again, with a talk from our Unity friend Arturo Nereu, you can find it on twitter as @arturonereu.
-
-{{<tweet user="arturonereu" id="1659213768201469952">}}
+I really missed it, last month y friend Lune rebooted it since **Hacker Garage**, who closed because of Covid, was going to open doors again, with a talk from our Unity friend Arturo Nereu, you can find it on twitter as **@arturonereu**.
 
 His talk inspired me a lot, after the event I told Lune I wanted to do the next month talk, and then I started working on it.
 

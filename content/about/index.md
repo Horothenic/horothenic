@@ -39,4 +39,4 @@ And my current objective is to collaborate on **one** of those games, one that I
 
 If you want to know more do not hesitate to send me an email or contacting me on social media.
 
-[1]: /img/about.jpg
+[1]: /img/about_v2.jpg

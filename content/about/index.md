@@ -23,7 +23,7 @@ Is my life motto.
 
 ![This is me][1]
 
-- *Photographer - **Liz Ruvalcaba*** (one of my best friends)
+- *Photographer - **Camille Gubert*** (my beutiful wife)
 
 ---------------
 

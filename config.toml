@@ -32,7 +32,7 @@ paginate = 5 #frontpage pagination
   ]
   copyright = [
     # "&copy; 2018 Göran Svensson",
-    "Nederburg Hugo Theme by [Appernetic](https://appernetic.io).",
+    "Nederburg Hugo Theme by [Appernetic](https://github.com/appernetic).",
     # "A port of Tracks by Compete Themes."
     "Customized by Ivan Herrera"
   ]

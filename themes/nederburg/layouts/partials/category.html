@@ -15,11 +15,11 @@
   {{ range $index, $element := (where .Data.Pages "Section" "post").ByDate.Reverse }}
 
 	{{ $scratch := newScratch }}
-	{{ if .Site.Params.writers }}
+	<!--{{ if .Site.Params.writers }}
 		{{ $scratch.Set "writer" (index .Site.Params.writers (lower .Params.writer) | default dict) }}
 	{{ else }}
 		{{ $scratch.Set "writer" .Site.Params.social | default dict }}
-	{{ end }}
+	{{ end }}-->
 	{{ $writer := $scratch.Get "writer" }}
 
 		{{ if and (isset .Params "image") .Params.image }}

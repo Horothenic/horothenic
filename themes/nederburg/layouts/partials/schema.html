@@ -3,8 +3,8 @@
         "@context" : "http://schema.org",
         "@type" : "BlogPosting",
         "mainEntityOfPage": {
-             "@type": "WebPage",
-             "@id": "{{ .Site.BaseURL }}"
+            "@type": "WebPage",
+            "@id": "{{ .Site.BaseURL }}"
         },
         "articleSection" : "{{ .Section }}",
         "name" : "{{ .Title }}",
@@ -21,7 +21,16 @@
         "dateModified" : "{{ .Date }}",
         "url" : "{{ .Permalink }}",
         "wordCount" : "{{ .WordCount }}",
-        "image" : {{ printf "%s%s" .Site.BaseURL .Page.Params.image }}",
-        "keywords" : [ {{ if isset .Params "tags" }}{{ range .Params.tags }}"{{ . }}",{{ end }}{{ end }}"Blog" ]   
+        "image" : "{{ printf "%s%s" .Site.BaseURL .Page.Params.image }}",
+        "keywords" : [
+            {{ if isset .Params "tags" }}
+                {{ range $index, $tag := .Params.tags }}
+                    "{{ $tag }}"{{ if lt $index (sub (len .Params.tags) 1) }},{{ end }}
+                {{ end }}
+            {{ else }}
+                "Blog"
+            {{ end }}
+        ]
     }
     </script>
+    

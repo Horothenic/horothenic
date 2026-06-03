@@ -13,26 +13,6 @@
 {{- with .Params.tags -}}
   {{- $keywords = . -}}
 {{- end -}}
-{{ dict
-  "@context" "http://schema.org"
-  "@type" "BlogPosting"
-  "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Site.BaseURL)
-  "articleSection" .Section
-  "name" .Title
-  "headline" .Title
-  "description" $description
-  "inLanguage" "en"
-  "author" (.Page.Params.author | default "")
-  "creator" (.Page.Params.author | default "")
-  "publisher" (.Page.Params.author | default "")
-  "accountablePerson" (.Page.Params.author | default "")
-  "copyrightHolder" (.Page.Params.author | default "")
-  "copyrightYear" (.Date.Format "2006")
-  "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00")
-  "dateModified" (.Date.Format "2006-01-02T15:04:05Z07:00")
-  "url" .Permalink
-  "wordCount" .WordCount
-  "image" $image
-  "keywords" $keywords
-  | jsonify | safeJS }}
+{{- $schema := dict "@context" "http://schema.org" "@type" "BlogPosting" "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Site.BaseURL) "articleSection" .Section "name" .Title "headline" .Title "description" $description "inLanguage" "en" "author" (.Page.Params.author | default "") "creator" (.Page.Params.author | default "") "publisher" (.Page.Params.author | default "") "accountablePerson" (.Page.Params.author | default "") "copyrightHolder" (.Page.Params.author | default "") "copyrightYear" (.Date.Format "2006") "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00") "dateModified" (.Date.Format "2006-01-02T15:04:05Z07:00") "url" .Permalink "wordCount" .WordCount "image" $image "keywords" $keywords -}}
+{{- $schema | jsonify | safeJS -}}
 </script>

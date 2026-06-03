@@ -1,36 +1,38 @@
 <script type="application/ld+json">
-    {
-        "@context" : "http://schema.org",
-        "@type" : "BlogPosting",
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "{{ .Site.BaseURL }}"
-        },
-        "articleSection" : "{{ .Section }}",
-        "name" : "{{ .Title }}",
-        "headline" : "{{ .Title }}",
-        "description" : "{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}",
-        "inLanguage" : "en",
-        "author" : "{{ .Page.Params.author }}",
-        "creator" : "{{ .Page.Params.author }}",
-        "publisher": "{{ .Page.Params.author }}",
-        "accountablePerson" : "{{ .Page.Params.author }}",
-        "copyrightHolder" : "{{ .Page.Params.author }}",
-        "copyrightYear" : "{{ .Date.Format "2006" }}",
-        "datePublished": "{{ .Date }}",
-        "dateModified" : "{{ .Date }}",
-        "url" : "{{ .Permalink }}",
-        "wordCount" : "{{ .WordCount }}",
-        "image" : "{{ printf "%s%s" .Site.BaseURL .Page.Params.image }}",
-        "keywords" : [
-            {{ if isset .Params "tags" }}
-                {{ range $index, $tag := .Params.tags }}
-                    "{{ $tag }}"{{ if lt $index (sub (len .Params.tags) 1) }},{{ end }}
-                {{ end }}
-            {{ else }}
-                "Blog"
-            {{ end }}
-        ]
-    }
-    </script>
-    
+{{- $description := .Description -}}
+{{- if not $description -}}
+  {{- if .IsPage -}}
+    {{- $description = .Summary -}}
+  {{- end -}}
+{{- end -}}
+{{- $image := "" -}}
+{{- with .Page.Params.image -}}
+  {{- $image = printf "%s%s" $.Site.BaseURL . -}}
+{{- end -}}
+{{- $keywords := slice "Blog" -}}
+{{- with .Params.tags -}}
+  {{- $keywords = . -}}
+{{- end -}}
+{{ dict
+  "@context" "http://schema.org"
+  "@type" "BlogPosting"
+  "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Site.BaseURL)
+  "articleSection" .Section
+  "name" .Title
+  "headline" .Title
+  "description" $description
+  "inLanguage" "en"
+  "author" (.Page.Params.author | default "")
+  "creator" (.Page.Params.author | default "")
+  "publisher" (.Page.Params.author | default "")
+  "accountablePerson" (.Page.Params.author | default "")
+  "copyrightHolder" (.Page.Params.author | default "")
+  "copyrightYear" (.Date.Format "2006")
+  "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00")
+  "dateModified" (.Date.Format "2006-01-02T15:04:05Z07:00")
+  "url" .Permalink
+  "wordCount" .WordCount
+  "image" $image
+  "keywords" $keywords
+  | jsonify | safeJS }}
+</script>
